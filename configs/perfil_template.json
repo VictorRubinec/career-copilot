@@ -1,0 +1,83 @@
+{
+  "candidato": {
+    "nome": "Seu Nome Completo",
+    "titulo_principal": "Desenvolvedor Backend / Engenheiro de Automação",
+    "localizacao": "São Paulo, SP - Brasil",
+    "contato": {
+      "email": "dev@exemplo.com",
+      "telefone": "+55 11 99999-9999",
+      "linkedin": "https://linkedin.com/in/usuario",
+      "github": "https://github.com/usuario",
+      "portfolio": ""
+    }
+  },
+  "preferencias_carreira": {
+    "cargos_alvo": [
+      "Backend Developer",
+      "Automation Engineer",
+      "Python Engineer",
+      "ETL / Data Specialist"
+    ],
+    "senioridade_alvo": ["Junior", "Mid-Level", "Contractor"],
+    "modalidades": ["100% Remoto"],
+    "regimes_contratuais": ["Contractor B2B (USD/EUR)", "PJ Flexível (Brasil)", "Part-time Freelance"],
+    "remuneracao_minima": {
+      "usd_hora": 15.0,
+      "usd_mensal": 1500.0,
+      "brl_hora": 40.0,
+      "brl_mensal": 3000.0
+    }
+  },
+  "horario_trabalho_desejado": {
+    "tipo_rotina": "Segundo Trabalho / Turno Noturno & Finais de Semana",
+    "timezone_candidato": "America/Sao_Paulo (UTC-3)",
+    "janela_disponivel": {
+      "segunda_a_sexta": "19:00 - 00:00",
+      "finais_de_semana": "09:00 - 18:00 (Opcional)"
+    },
+    "turnos_aceitos": [
+      "noturno",
+      "flexivel_assincrono",
+      "finais_de_semana"
+    ],
+    "carga_semanal_horas": 20,
+    "permite_reunioes_horario_comercial": false,
+    "maximo_horas_sincronas_semana": 2,
+    "politica_comunicacao": "Async-first (comunicação por tickets, PRs, Slack/Discord e Loom; tolerância zero para microgerenciamento de presença síncrona em horário comercial 09h-18h BRT)"
+  },
+  "competencias": {
+    "principais": [
+      "Python",
+      "Automação de Processos",
+      "Selenium / Playwright",
+      "Web Scraping",
+      "ETL",
+      "APIs REST (FastAPI, Requests)",
+      "SQL (PostgreSQL, MySQL)",
+      "Docker",
+      "Linux / Shell Script",
+      "Git"
+    ],
+    "secundarias": [
+      "Java (Spring Boot)",
+      "React",
+      "CI/CD GitHub Actions",
+      "Monitoramento & Logs"
+    ],
+    "idiomas": {
+      "portugues": "Nativo",
+      "ingles": "Técnico / Intermediário-Avançado (Comunicação assíncrona escrita e leitura técnica)"
+    }
+  },
+  "historico_profissional": [
+    {
+      "empresa": "Empresa Anterior",
+      "cargo": "Analista de Desenvolvimento Júnior",
+      "periodo": "2024 - Presente",
+      "atividades": [
+        "Desenvolveu rotinas de automação em Python e testes end-to-end com Selenium.",
+        "Construiu pipelines de ETL e consultas analíticas no PostgreSQL para relatórios operacionais."
+      ]
+    }
+  ]
+}

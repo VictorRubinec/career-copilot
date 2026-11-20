@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "career-copilot": {
+      "command": "python",
+      "args": ["-m", "src.mcp_server"],
+      "cwd": "D:\\Desktop\\Códigos\\career-copilot"
+    }
+  }
+}
