@@ -79,5 +79,11 @@
         "Construiu pipelines de ETL e consultas analíticas no PostgreSQL para relatórios operacionais."
       ]
     }
+  ],
+  "formacao_e_certificacoes": [
+    {
+      "titulo": "Bacharelado em Ciência da Computação / Engenharia de Software",
+      "detalhe": ""
+    }
   ]
 }

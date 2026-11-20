@@ -37,9 +37,17 @@ ENV/
 .coverage
 htmlcov/
 
+# Variáveis de ambiente e segredos locais
+.env
+.env.*
+!.env.example
+
 # Dados locais gerados (mantendo apenas templates)
 data/*.db
+data/browser_profile/
+data/candidaturas_log.json
 data/curriculos_gerados/
+data/http_cache/
 data/vagas_mineradas.json
 !data/.gitkeep
 configs/perfil.json
