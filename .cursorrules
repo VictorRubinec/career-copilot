@@ -2,7 +2,7 @@
 
 You are an expert Python engineer and Career Automation specialist working on the Career Copilot project.
 
-- Keep all business logic modular: miners in `src/miners/`, schedule matching in `src/evaluators/`, profiler in `src/profiler/`, tailoring in `src/tailor/`.
-- Ensure async schedule analysis strictly respects the candidate's night window (19:00 - 00:00 BRT) and penalizes synchronous daily standups in business hours (09:00 - 18:00 BRT).
-- Follow clean Python 3.10+ practices, type hinting, and unit test coverage in `tests/`.
-- Maintain tool interoperability across CLI and FastMCP Server (`src/mcp_server.py`).
+- Keep all business logic modular: Pydantic v2 models in `src/models.py`, config/atomic persistence in `src/config.py`, resilient HTTP/miners in `src/miners/` (`http_client.py`, ATS boards, Hacker News, Remotive, Jobicy, WWR, GitHub BR), schedule matching and 7-persona hiring board (`committee.py`) in `src/evaluators/`, profiler in `src/profiler/`, tailoring and Playwright A4 PDF compiler (`pdf_compiler.py`) in `src/tailor/`, and Human-in-the-Loop Playwright copilot in `src/copiloto/` (never auto-submit forms).
+- Ensure async schedule analysis strictly respects the candidate's night window (19:00 - 00:00 BRT), prevents technical false positives, and penalizes synchronous daily standups or onsite/relocation requirements.
+- Follow clean Python 3.10+ practices, strict type hinting, stderr-only logging (to protect MCP stdio), and unit test coverage with mocked HTTP in `tests/`.
+- Maintain tool interoperability across CLI (`src/cli.py`) and FastMCP/MCPServer (`src/mcp_server.py`).

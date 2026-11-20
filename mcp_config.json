@@ -3,7 +3,7 @@
     "career-copilot": {
       "command": "python",
       "args": ["-m", "src.mcp_server"],
-      "cwd": "D:\\Desktop\\Códigos\\career-copilot"
+      "cwd": "/caminho/para/career-copilot"
     }
   }
 }
